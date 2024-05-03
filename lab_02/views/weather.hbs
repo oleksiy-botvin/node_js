@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+{{> header }}
+
+<div class="card weather">
+    <div class="cities_tab">
+        {{#each cities}}
+            <div class="{{#equals this ../selectCity}}select{{/equals}}">
+                <a href="/weather/{{id}}" >{{name}}</a>
+            </div>
+        {{/each}}
+    </div>
+
+    <div class="weather_result">
+        <h3>Погода в місті {{ selectCity.name }}</h3>
+        <div class="temperature">
+            {{ weather.temp }} &#176;
+            <img
+                    src="https://openweathermap.org/img/wn/{{ weather.iconId }}@2x.png"
+                    alt="{{ weather.iconDescription }}">
+        </div>
+        <div class="info">
+            <div>
+                <div>Мінімальна температура: </div>
+                <div>Максимальна температура: </div>
+                <div>Вологість: </div>
+                <div>Атмосферний тиск: </div>
+                <div>Швидкість вітру: </div>
+            </div>
+            <div>
+                <div>{{ weather.tempMin }} &#176;</div>
+                <div>{{ weather.tempMax }} &#176;</div>
+                <div>{{ weather.humidity }}%</div>
+                <div>{{ weather.pressure }} hPa</div>
+                <div>{{ weather.windSpeed }} км/г</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{> footer }}
+</body>
+</html>

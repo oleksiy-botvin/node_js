@@ -1,0 +1,175 @@
+body {
+    min-width: fit-content;
+    background-color: rgb(0,14,39);
+    margin: 8px 32px 32px 32px;
+    color: rgb(240,242,245);
+}
+
+.nav {
+    margin-bottom: 16px;
+    padding: 8px 32px;
+}
+
+.card {
+    min-width: fit-content;
+    border-radius: 8px;
+    border-width: 0;
+    background-color: rgb(34,45,65);
+    padding: 16px 32px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.card form {
+    text-align: center;
+}
+
+.card>form button {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.cities_tab {
+    max-width: max-content;
+    display: grid;
+}
+
+.cities_tab * {
+    color: rgb(240,242,245);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(140,148,159);
+    border-width: 0;
+}
+
+.cities_tab div {
+    display: grid;
+    border-width: 1px 2px 1px 2px;
+}
+
+.cities_tab a {
+    padding: 8px 24px;
+}
+
+.cities_tab div:first-child, .cities_tab div:first-child:first-child {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.cities_tab div:first-child {
+    border-top-width: 2px;
+}
+
+.cities_tab div:last-child, .cities_tab div:last-child:first-child {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cities_tab div:last-child {
+    border-bottom-width: 2px;
+}
+
+.cities_tab a:hover {
+    background-color: #FFFFFF25;
+}
+
+.cities_tab *:active {
+    background-color: #FFFFFF50;
+}
+
+.cities_tab .select {
+    background-color: rgb(46,113,252);
+}
+
+.weather_result {
+    flex: auto;
+    margin: 0 auto auto 24px;
+    padding: 24px;
+    color: rgb(240,242,245);
+    border-style: solid;
+    border-color: rgb(140,148,159);
+    border-width: 2px;
+    border-radius: 8px;
+}
+
+.weather_result * {
+    margin: 0;
+}
+
+.weather {
+    display: flex;
+    flex: auto;
+}
+
+.temperature {
+    width: max-content;
+    display: flex;
+    font-weight: bold;
+    font-size: 56px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.temperature img {
+    margin-left: 8px;
+}
+.not_found img {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+}
+
+.info div:first-child{
+    margin-right: 16px;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+}
+
+nav h1 {
+    margin: 0 16px 0 0;
+}
+
+nav a {
+    padding: 8px;
+    color: rgb(240,242,245);
+    text-decoration: none;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+nav a:hover {
+    background-color: #FFFFFF25;
+}
+
+nav a:active {
+    background-color: #FFFFFF75;
+}
+
+button {
+    background-color: rgb(46,113,252);
+    border-radius: 16px;
+    border-width: 0;
+    padding: 8px 32px;
+    color: rgb(240,242,245);
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 32px;
+    text-align: end;
+    font-size: 16px;
+    font-weight: bold;
+}

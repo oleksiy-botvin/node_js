@@ -1,0 +1,102 @@
+[
+  {
+    "id": "Lutsk",
+    "name": "Луцьк"
+  },
+  {
+    "id": "Lviv",
+    "name": "Львів"
+  },
+  {
+    "id": "Uzhgorod",
+    "name": "Ужгород"
+  },
+  {
+    "id": "Ivano-Frankivsk",
+    "name": "Івано-Франківськ"
+  },
+  {
+    "id": "Chernivtsi",
+    "name": "Чернівці"
+  },
+  {
+    "id": "Ternopil",
+    "name": "Тернопіль"
+  },
+  {
+    "id": "Khmelnytskyi",
+    "name": "Хмельницький"
+  },
+  {
+    "id": "Rivne",
+    "name": "Рівне"
+  },
+  {
+    "id": "Zhytomyr",
+    "name": "Житомир"
+  },
+  {
+    "id": "Vinnytsia",
+    "name": "Вінниця"
+  },
+  {
+    "id": "Odesa",
+    "name": "Одеса"
+  },
+  {
+    "id": "Kyiv",
+    "name": "Київ"
+  },
+  {
+    "id": "Cherkasy",
+    "name": "Черкаси"
+  },
+  {
+    "id": "Kropivnytskyi",
+    "name": "Кропивницький"
+  },
+  {
+    "id": "Mykolaiv",
+    "name": "Миколаїв"
+  },
+  {
+    "id": "Kherson",
+    "name": "Херсон"
+  },
+  {
+    "id": "Simferopol",
+    "name": "Сімферополь"
+  },
+  {
+    "id": "Zaporizhia",
+    "name": "Запоріжжя"
+  },
+  {
+    "id": "Donetsk",
+    "name": "Донецьк"
+  },
+  {
+    "id": "Luhansk",
+    "name": "Луганськ"
+  },
+  {
+    "id": "Dnipro",
+    "name": "Дніпро"
+  },
+  {
+    "id": "Kharkiv",
+    "name": "Харків"
+  },
+  {
+    "id": "Poltava",
+    "name": "Полтава"
+  },
+  {
+    "id": "Sumy",
+    "name": "Суми"
+  },
+  {
+    "id": "Chernihiv",
+    "name": "Чернігів"
+  }
+]
